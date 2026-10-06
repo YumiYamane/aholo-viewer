@@ -11,7 +11,7 @@ import {
 
 import { CursorOrbitControls } from './cursor-orbit-controls';
 
-const SPLAT_URL = 'gamelab_logo.sog';
+const SPLAT_URL = `${import.meta.env.BASE_URL}gamelab_logo.sog`;
 
 // Create the container and attach it to the page.
 document.body.style.margin = '0';
