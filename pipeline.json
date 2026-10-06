@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "tasks": [
+        {
+            "id": "0",
+            "type": "Read",
+            "config": { "inputs": ["gamelab_logo.ply"], "output": "cache0", "maxShDegree": 0 }
+        },
+        {
+            "id": "1",
+            "type": "Write",
+            "config": { "input": "cache0", "output": "public/gamelab_logo.sog" }
+        }
+    ]
+}
